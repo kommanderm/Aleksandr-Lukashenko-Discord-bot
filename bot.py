@@ -222,6 +222,6 @@ async def changelog(ctx):
     
     
     
-client.run("YOUR_TOKEN")    
+client.run(os.environ.get("DISCORD_BOT_TOKEN))    
 
 
